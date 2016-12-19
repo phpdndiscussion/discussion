@@ -1,0 +1,70 @@
+Symfony as base (?)
+- What does it provide that we want?
+
+Router:
+- Configuration source? Probably depends on how Configuration works
+
+Dispatcher:
+- Need anything more than just Router::getRoute()->execute()?
+
+DI:
+- How to define dependencies?
+
+Request/Response:
+-
+
+MVC in general:
+- Architecture
+
+MVC Controllers:
+-
+
+MVC Models:
+- Separate business and database models?
+
+MVC Views:
+- Views as files or classes?
+
+Database:
+- mysqli and PDO
+- Other database systems?
+
+Cache:
+- Support for apcu, Memcache, Redis
+- Database cache
+- Filesystem cache
+
+Email:
+- PHPMailer?
+
+Configuration:
+- File format?
+- Encryption
+
+Autoloading:
+- PSR whatsit
+- Support for Composer
+
+Error handling:
+-
+
+Logging:
+- PSR?
+- Make it easy to log things - no jumping through hoops
+- Debug/info/notice level logging should be minimal impact in production - PHP 7's assertions?
+
+Events:
+- Raising and listening for events
+
+Testing:
+- Make it crazy easy to write and execute tests
+- Establish rules about requiring test cases for changes
+- PHPUnit?
+
+Extension/addon system:
+- How it works - hooks? filters? events?
+- What code looks like
+
+Documentation:
+- DOCUMENTATION OMFG PLZ
+- Establish rules about requiring documentation for changes
