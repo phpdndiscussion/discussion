@@ -1,17 +1,10 @@
-Symfony as base (?)
+Silex as base (http://silex.sensiolabs.org/doc/master/)
 - What does it provide that we want?
-
-Router:
-- Configuration source? Probably depends on how Configuration works
-
-Dispatcher:
-- Need anything more than just Router::getRoute()->execute()?
-
-DI:
-- How to define dependencies?
-
-Request/Response:
--
+    - Symfony components (http://symfony.com/doc/current/components/index.html):
+        - Request/Response objects
+        - Routing
+        - Dispatching
+    - DIC (http://pimple.sensiolabs.org/)
 
 MVC in general:
 - Architecture
@@ -28,6 +21,8 @@ MVC Views:
 Database:
 - mysqli and PDO
 - Other database systems?
+    - Doctrine DBAL (http://www.doctrine-project.org/projects/dbal.html)
+    - Doctrine ORM (http://www.doctrine-project.org/projects/orm.html)
 
 Cache:
 - Support for apcu, Memcache, Redis
@@ -36,14 +31,12 @@ Cache:
 
 Email:
 - PHPMailer?
+- SwiftMailer?
 
 Configuration:
 - File format?
+    - YAML?
 - Encryption
-
-Autoloading:
-- PSR whatsit
-- Support for Composer
 
 Error handling:
 -
@@ -59,7 +52,6 @@ Events:
 Testing:
 - Make it crazy easy to write and execute tests
 - Establish rules about requiring test cases for changes
-- PHPUnit?
 
 Extension/addon system:
 - How it works - hooks? filters? events?
