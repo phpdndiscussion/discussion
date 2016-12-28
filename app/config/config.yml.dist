@@ -1,0 +1,5 @@
+database:
+  driver: pdo_mysql
+  user: devnet
+  password: devnet
+  dbname: discussion

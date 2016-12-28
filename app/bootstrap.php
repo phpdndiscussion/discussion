@@ -2,7 +2,7 @@
 
 require_once dirname(__DIR__) . '/vendor/autoload.php';
 
-$app = new Silex\Application;
+$app = new Discussion\Application;
 
 $app->get('/', function() {
     $html = "<h1>Hello!</h1>";
