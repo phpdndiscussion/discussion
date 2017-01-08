@@ -1,0 +1,3 @@
+module: phpinfo
+namespace: Discussion\Modules\phpinfo
+# uriprefix:
